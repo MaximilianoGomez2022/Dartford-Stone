@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Roboto+Slab:wght@800;900&family=Suez+One&display=swap');
+
+
+
+
+*  { margin: 0px; border: 0px; padding: 0px;
+
+ }
+
+ /* Home */ 
+#home{
+    background-image:url(imghome/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bodyhome {
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+    background-color: #262626;
+    color: #a9a8a8;
+}
+
+#navindex {
+    background-color: rgb(14, 14, 14);
+}
+
+#navindex a {
+    color:#a9a8a8; 
+}
+
+#navindex ul li a:hover {
+    color:white;
+}
+
+#indexcontenedor {
+    overflow: auto;
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+main section article h2 {
+    padding: 0px;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+#primer {
+    overflow: auto;
+    background: url(imghome/fondo1.jpg);
+    margin-bottom: 20px;
+}
+
+#texthome1 {
+    float: left;
+    width: 605px;
+    overflow: auto;
+    text-align: center;
+    margin-top: 115px;
+    padding: 20px;
+ 
+}
+
+
+
+.imghome {
+    width: 550px;
+    margin: 0;
+    vertical-align: top;
+    float: right;
+    filter: brightness(70%);
+-webkit-filter: brightness(70%);
+-moz-filter: brightness(70%);
+}
+
+#indexcontenedor section figure :hover {
+    filter: brightness(99%);
+-webkit-filter: brightness(99%);
+-moz-filter: brightness(99%);
+}
+
+#indexcontenedor section a {
+    text-decoration: none;
+    color: #a9a8a8;
+}
+
+.segundo {
+    overflow: auto;
+    background-image: url(imghome/logogrisstones.jpg);
+    margin-bottom: 20px;
+}
+
+#texthome2 {
+    display: inline-block;
+    width: 605px;
+    overflow: auto;
+    text-align: center;
+    margin-top: 95px;
+    padding: 20px;
+} 
+
+#tercero {
+    overflow: auto;
+    background-image: url(imghome/bebidas.jpg);
+    margin-bottom: 20px;
+}
+
+#texthome3 {
+    float: left;
+    width: 605px;
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+} 
+
+footer{
+    background-color: rgb(14, 14, 14);
+    text-align: center;
+    padding: 20px;
+    color: #a9a8a8;
+}
+ 
+
+/* INFORMACION */
+
+#informacion{
+    background-image:url(imginfo/header\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+#bodyinfo {
+        font-family: 'Raleway', sans-serif;
+        background-color: #c7b284;
+        color: rgb(14, 14, 14);
+}
+
+#infocontenedor {
+    overflow: auto;
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#puente {
+    float:right;
+}
+
+#ciudad {
+    background-image: url(imginfo/central-park.jpg);
+    background-repeat: no-repeat;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+#pciudad {
+    width: 600px;
+    text-align: center;
+    margin-left: 22px;
+    margin-right: auto;
+    margin-top: 55px;
+    
+}
+
+#historia {
+    background-image: url(imginfo/central-park.jpg);
+    background-repeat: no-repeat;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+#phistoria{
+    width: 600px;
+    margin-left: 25px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#imghis{
+ float: right;
+}
+
+#col {
+    column-count: 3;
+    column-rule: rgb(27, 27, 27) 2px solid;
+    column-gap: 40px;
+}
+
+#economia {
+    overflow: auto;
+}
+
+#imgeconomia {
+    float: left;
+}
+
+#peconomia {
+    float: right;
+    width: 600px;
+    vertical-align: top;
+}
+
+/* CULTURA */ 
+
+#cultura{
+    background-image:url(imgcultura/header.jpg);
+    background-repeat: no-repeat;
+}
+
+.estructura {
+        overflow: auto;
+        width: 1200px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    #pcultura {
+        float: right;
+        width: 700px;
+        vertical-align: top;
+    }
+
+.pcul{
+        width: 600px;
+        text-align: center;
+        margin-left: 22px;
+        margin-right: auto;
+        margin-top: 55px;
+}
+
+.cul {
+    background-image: url(imginfo/central-park.jpg);
+    background-repeat: no-repeat;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+/*STONE*/
+
+#stone{
+    background-image:url(imgstone/headerstone.jpg);
+    background-repeat: no-repeat;
+}
+
+#bodystone {
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+    background-color: #262626;
+    color: #a9a8a8;
+}
+
+#stonecontenedor {
+    overflow: auto;
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#textstone {
+    display: inline-block;
+    width: 605px;
+    overflow: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#textstone h2 {
+    margin-bottom: 25px;
+}
+
+.seg {
+    overflow: auto;
+    background-image: url(imghome/logogrisstones.jpg);
+    margin:auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 1200px;
+}
+
+#textstone2 {
+    display: inline-block;
+    width: 605px;
+    overflow: auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#imgstones {
+    width: 1200px;
+    margin: auto;
+}
+
+#textstone3 {
+    display: inline-block;
+    width: 605px;
+    overflow: auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: 55px;
+}
+
+#mapa {
+    float: right;
+}
+
+.slide-wrapp {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* DISCOGRAFIA */
+
+#disco{
+    background-image:url(imgdisco/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.discos {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imgdiscos {
+    float: left;
+    margin-left: 100px;
+}
+
+.temas {
+    margin-left: 30px;
+    margin-right: 60px;
+    margin-top: 30px;
+    width: 600px;
+    float:right;
+    vertical-align: top;
+}
+
+.temas ul {
+    text-align: center;
+    text-decoration: none;
+}
+
+.temas li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+/*contacto */
+
+ body {
+    font-family: 'Raleway', sans-serif;
+    color: #2f2e2c;
+    background-color: #e2e2e2e0;
+}
+
+
+
+header {
+    background-image:url(imgcont/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    padding-top: 0px;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 0px;
+    font-family: 'Roboto Slab', serif;
+    visibility: hidden;
+}
+
+nav {
+    margin-top: 595px;
+    text-align: center;
+    padding: 6px;
+    background-color: #2f2e2c;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    padding: 0 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    padding: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+nav ul li a:hover {
+    color:#b0b0b3;
+}
+
+#contenedor {
+    margin: auto;
+    overflow: auto;
+    margin-left: 50px;
+}
+
+
+h2 {
+    padding: 40px 40px;
+    text-align: center;
+}
+
+form div {
+    margin: 10px;
+    margin-bottom: 20px;
+    
+}
+
+
+#texto1 {
+    float: right;
+    width: 750px;
+    margin-left: 10px;
+    margin-right: 50px;
+    vertical-align: top;
+} 
+
+textarea{
+    resize: none;
+}
+
+input, textarea {
+    outline: none;
+}
+
+.boton {
+    border-radius:2px 2px 2px 2px;
+    box-shadow: 3px 5px 5px 0px rgba(59,59,59,0.75);
+    -webkit-box-shadow: 3px 5px 5px 0px rgba(59,59,59,0.75);
+    -moz-box-shadow: 3px 5px 5px 0px rgba(59,59,59,0.75);
+    width: 380px;
+    background-color: #16b393;
+    padding: 8px;
+    color: white;
+    font-size: 24px;
+    font-weight: "bold";
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+
+form label{
+    width: 130px;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+    
+
+}
+
+
+form {
+    background-color: #012b4e;
+    width: 400px;
+    margin: left 50px;
+    color: white;
+    float: left;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 3px 5px 5px 0px rgba(59,59,59,0.75);
+    -webkit-box-shadow: 3px 5px 5px 0px rgba(59,59,59,0.75);
+    -moz-box-shadow: 3px 5px 5px 0px rgba(59,59,59,0.75);
+    border: solid 20px #00436a;
+}
+
+article p {
+    margin-bottom: 20px;
+}
+
+h3 {
+    display: none;
+}
+
+input {
+    font-family: 'Raleway';
+    margin-right: 20px;
+    border-radius: 2px 2px 2px 2px;
+}
+
+select {
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 3px 5px 5px 0px rgba(59,59,59,0.75);
+    -webkit-box-shadow: 3px 5px 5px 0px rgba(59,59,59,0.75);
+    -moz-box-shadow: 3px 5px 5px 0px rgba(59,59,59,0.75);
+}
+
+
+input:focus {
+    background-color:silver;
+}
+
+input:required {
+    background: url(imagenes/25218.png) no-repeat right center;
+    background-color: white;
+}
+
+#galeriacont {
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#servicios {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    
+}
+
+#servicios2 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#servicios  figure{
+    display: inline-block;
+    margin: auto;
+    width: 80px;
+    padding-left: 100px;
+}
+
+#servicios2  figure{
+    display: inline-block;
+    margin: auto;
+    width: 80px;
+    padding-left: 100px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+/* gracias */
+
+#gracias {
+    background: url(imggracias/Sin\ título-4.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom ;
+}
+
+header h2 {
+    color: white;
+    font-size: 50px;
+    padding-top: 60px;
+}
+
+header p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}

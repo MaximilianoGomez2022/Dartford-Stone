@@ -1,0 +1,12 @@
+
+ALUMNO
+
+Maximiliano Gomez
+
+DNI 36075213
+
+Mail : Maximilano.gomez101@davinci.edu.ar
+
+MATERIA Maquetado Web 2020 
+
+PROFESORA Florencia Belen Kotlar  
